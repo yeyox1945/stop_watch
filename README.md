@@ -1,4 +1,4 @@
-# stop_watch
+# Stop Watch App
 
 # Dev
 1. In case the project has some env variables rename `.env.template` file to `.env` and add you own.
@@ -13,6 +13,26 @@ To change the package app name run:
 ```
 flutter pub run change_app_package_name:main com.company.name
 ```
+
+To change app icon:
+
+```
+flutter pub run flutter_launcher_icons
+```
+
+## Android
+
+
+## iOS
+
+
+## Web
+
+
+
+
+
+
 
 
 
