@@ -21,11 +21,11 @@ class _StopWatchScreenState extends ConsumerState<StopWatchScreen> {
     super.initState();
 
     // todo: find a way to stop ticker if watch is stopped...
-    // ticker = Timer.periodic(const Duration(milliseconds: 10), (timer) {
-    //   // ignore: avoid_print
-    //   print('ticking...');
-    //   setState(() {});
-    // });
+    ticker = Timer.periodic(const Duration(milliseconds: 10), (timer) {
+      // ignore: avoid_print
+      print('ticking...');
+      setState(() {});
+    });
   }
 
   @override
