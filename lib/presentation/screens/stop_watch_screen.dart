@@ -67,7 +67,6 @@ class _StopWatchTextState extends ConsumerState<StopWatchText>
     super.initState();
 
     _ticker = createTicker((elapsed) {
-      print('ticking...');
       setState(() {});
     });
 
