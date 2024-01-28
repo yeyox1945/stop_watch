@@ -31,7 +31,7 @@ class StopWatchNotifier extends _$StopWatchNotifier {
     } else {
       state.stopwatch.start();
     }
-    // state = state.copyWith();
+    state = state.copyWith();
   }
 
   void toggleStopLap() {
