@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:stop_watch/domain/config/app_router.dart';
 import 'package:stop_watch/domain/config/app_theme.dart';
-import 'package:stop_watch/presentation/screens/stop_watch_screen.dart';
 
 void main() {
   runApp(const ProviderScope(child: MainApp()));
@@ -12,9 +12,9 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
-      home: const StopWatchScreen(),
+      routerConfig: appRouter,
       theme: AppTheme.theme(),
     );
   }
