@@ -21,12 +21,20 @@ flutter pub run flutter_launcher_icons
 ```
 
 ## Android
+Follow the official guideline to deploy the app to the PlayStore:
 
+https://docs.flutter.dev/deployment/android
 
 ## iOS
+Follow the official guideline to deploy the app to the AppStore:
+
+https://docs.flutter.dev/deployment/ios
 
 
 ## Web
+Follow official guideline to deploy the app to the web:
+
+https://docs.flutter.dev/deployment/web
 
 
 
