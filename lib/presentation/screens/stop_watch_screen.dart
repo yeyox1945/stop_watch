@@ -108,6 +108,7 @@ class WatchActions extends ConsumerWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         FloatingActionButton(
+          key: const Key('Play/Pause btn'),
           onPressed:
               ref.read(stopWatchNotifierProvider.notifier).togglePlayPause,
           shape: const CircleBorder(),
@@ -120,6 +121,7 @@ class WatchActions extends ConsumerWidget {
         if (watchProvider.stopwatch.elapsedTicks != 0) ...[
           const SizedBox(width: 20),
           FloatingActionButton(
+            key: const Key('Lap/Stop btn'),
             onPressed:
                 ref.read(stopWatchNotifierProvider.notifier).toggleStopLap,
             shape: const CircleBorder(),
